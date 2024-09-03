@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="core\overlay\overlay.hpp" />
+    <ClInclude Include="util\render\render.hpp" />
+    <ClInclude Include="common.hpp" />
+    <ClInclude Include="util\winapi\winapi.hpp" />
+    <ClInclude Include="util\mem\module.hpp" />
+    <ClInclude Include="util\mem\process.hpp" />
+    <ClInclude Include="util\mem\driver.hpp" />
+    <ClInclude Include="util\winapi\native.hpp" />
+    <ClInclude Include="util\mem\pattern.hpp" />
+    <ClInclude Include="core\cstrike.hpp" />
+    <ClInclude Include="sdk\interfaces\schema_system.hpp" />
+    <ClInclude Include="core\schema\schemas.hpp" />
+    <ClInclude Include="sdk\classes\utl_ts_hash.hpp" />
+    <ClInclude Include="sdk\entities\base_entity.hpp" />
+    <ClInclude Include="sdk\entities\player_controller.hpp" />
+    <ClInclude Include="sdk\entities\player_pawn.hpp" />
+    <ClInclude Include="sdk\interfaces\entity_list.hpp" />
+    <ClInclude Include="core\entity_manager\entity_manager.hpp" />
+    <ClInclude Include="features\visuals\player_esp.hpp" />
+    <ClInclude Include="sdk\interfaces\view_matrix.hpp" />
+    <ClInclude Include="core\input\input.hpp" />
+    <ClInclude Include="features\visuals\spectator_list.hpp" />
+    <ClInclude Include="features\visuals\rank_reveal.hpp" />
+    <ClInclude Include="fnv1a.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp" />
+    <ClCompile Include="util\winapi\winapi.cpp" />
+    <ClCompile Include="util\mem\driver.cpp" />
+    <ClCompile Include="util\mem\process.cpp" />
+    <ClCompile Include="util\mem\module.cpp" />
+    <ClCompile Include="core\cstrike.cpp" />
+    <ClCompile Include="core\schema\schemas.cpp" />
+    <ClCompile Include="core\overlay\overlay.cpp" />
+    <ClCompile Include="util\render\render.cpp" />
+    <ClCompile Include="core\entity_manager\entity_manager.cpp" />
+    <ClCompile Include="features\visuals\player_esp.cpp" />
+    <ClCompile Include="core\input\input.cpp" />
+    <ClCompile Include="features\visuals\spectator_list.cpp" />
+    <ClCompile Include="features\visuals\rank_reveal.cpp" />
+  </ItemGroup>
+</Project>
